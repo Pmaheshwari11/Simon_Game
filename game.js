@@ -67,11 +67,5 @@ $(document).keypress(function(){
     }
 })
 
-$(document).click(function(){
-    if(gamePattern.length < 1){
-        nextSequence()
-    }
-})
-
 $(".btn").click(handler)
 
